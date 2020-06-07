@@ -1,0 +1,176 @@
+<HTML>
+<HEAD>
+	<TITLE>PLACES</TITLE>
+
+<STYLE type='text/css'>
+	p.solid{
+	border-style: solid;
+  	border-color: white;
+  	background-color: white;
+}
+p.menu{
+	border-style: solid;
+  	border-color: white;
+  	background-color: white;
+}
+p.liquid{
+	border-style: none;
+  	border-color: white;
+  	border-collapse: separate;
+  	background-color: white;
+}
+#sidebar1{
+		border-radius: 0px 15px 0px 0px;
+		width: 150px;
+		height: 75px;
+		background: red;
+		left: 8px;
+		top: 126px;
+		position: absolute;
+		opacity: 100%;
+		border: solid white;
+	}
+	#sidebar2{
+		width: 150px;
+		height: 75px;
+		background: green;
+		left: 8px;
+		top: 201px;
+		position: absolute;
+		opacity: 100%;
+		border: solid white;
+	}
+	#sidebar3{
+		width: 150px;
+		height: 75px;
+		background: white;
+		left: 8px;
+		top: 276px;
+		position: absolute;
+		opacity: 100%;
+		border: solid white;
+	}
+	#sidebar4{
+		border-radius: 0px;
+		width: 150px;
+		height: 75px;
+		background: red;
+		left: 8px;
+		top: 351px;
+		position: absolute;
+		opacity: 100%;
+		border: solid white;
+	}
+	#sidebar5{
+		width: 150px;
+		height: 75px;
+		background: green;
+		left: 8px;
+		top: 426px;
+		position: absolute;
+		opacity: 100%;
+		border: solid white;
+	}
+	#sidebar6{
+		width: 150px;
+		height: 75px;
+		background: white;
+		left: 8px;
+		top: 501px;
+		position: absolute;
+		opacity: 100%;
+		border: solid white;
+	}
+	#sidebar7{
+		border-radius: 0px 0px 15px 0px;
+		width: 150px;
+		height: 75px;
+		background: red;
+		left: 8px;
+		top: 576px;
+		position: absolute;
+		opacity: 100%;
+		border: solid white;
+	}
+	#menu{
+		visibility: hidden;
+	}
+	#box{
+		width: 75%;
+		height: 35%;
+		background-color: red;
+		position: fixed;
+		opacity: 0.9;
+		top: 15%;
+		left: 12%;
+	}
+	#OK{
+		width: 20%;
+		height: 9%;
+		background-color: white;
+		position: fixed;
+		opacity: 1;
+		top: 35%;
+		left: 25%;
+	}
+	#no{
+		width:20%;
+		height:9%;
+		background-color:white;
+		position: fixed;
+		opacity: 1;
+		top:35%;
+		left:55%;
+	}
+</STYLE>
+</HEAD>
+<BODY bgcolor= red link=black vlink=black>
+<STYLE>A{text-decoration: none} </STYLE>
+<SCRIPT>
+	function toggle(){
+		var x= document.getElementById('menu');
+		if( x.style.visibility === "visible"){
+			x.style.visibility="hidden";
+		}
+		else{
+			x.style.visibility="visible";
+		}
+	}
+</SCRIPT>
+<DIV id='menu'>
+    <DIV id=sidebar1><A href= "symptoms.html" style="color:black;text-decoration: none;"><br>&nbsp;Symptoms</A></DIV>
+	<DIV id=sidebar2><A href= "prevention.html" style="color:black;text-decoration: none;"><br>&nbsp;Preventions</A></DIV>
+	<DIV id=sidebar3><A href= "places.html" style="color:black;text-decoration: none;"><br>&nbsp;Places</A></DIV>
+	<DIV id=sidebar4><A href= "deathsandcases.html" style="color:black;text-decoration: none;"><br>&nbsp;Death and Confirmed &nbsp;Cases</A></DIV>
+	<DIV id=sidebar5><br><A href= "Incubationperiod.html" style="color:black;text-decoration: none;">&nbsp;Incubation Period</A></DIV>
+	<DIV id=sidebar6><A href= "Whatpeoplearedoing.html" style="color:black;text-decoration: none;">&nbsp;What People are &nbsp;Doing to Slow &nbsp;the Spread</A></DIV>
+	<DIV id=sidebar7><br>&nbsp;<A href= "aboutus.html" style="color:black;text-decoration: none;">About us</A></DIV>
+</DIV>
+<p class="menu" color=white>
+	<IMG src='menu.png'style="width:90; top:-1%';"onclick="toggle();"></IMG>
+<A href="index.html"><IMG src='home.png' style="width:90;top:-1%';"></IMG></A>
+<SPAN style= "font-size:84; font-family: 'Cochin';padding-left: 26%;top:-0.5%; position: relative;">PLACES</SPAN>
+<IMG src='logo.png' style="width: 230px; padding-left: 26%;top: -1%; position: absolute;"></IMG></p>
+<p class="solid" color=white style="padding-left: 10%">
+<TABLE>
+	<TR>
+		<TD><IMG src="map.png" width=600px></IMG></TD>
+		<TD>&nbsp;&nbsp;&nbsp;&nbsp;<iframe width="760" height="427" src="https://www.youtube.com/embed/ST-cn2JQ31M" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></TD>
+	</TR>
+</TABLE>
+</p>
+<p class="solid" color=white style="padding-left: 10%">
+<SPAN>Some places with a lot of coronaviruses<br>
+&nbsp;&nbsp;&nbsp;&nbsp;United States, over 1.26m confirmed cases, and 74k deaths<br>
+&nbsp;&nbsp;&nbsp;&nbsp;Italy, over 214k, confirmed cases, and 29k deaths<br>
+&nbsp;&nbsp;&nbsp;&nbsp;Spain, over 220k confirmed cases, and 25k deaths<br>
+&nbsp;&nbsp;&nbsp;&nbsp;United Kingdom 201k confirmed cases<br>
+&nbsp;&nbsp;&nbsp;&nbsp;France, 137k confirmed cases<br>
+&nbsp;&nbsp;&nbsp;&nbsp;Iran, 102k confirmed cases<br>
+&nbsp;&nbsp;&nbsp;&nbsp;China, 82k confirmed cases<br>
+&nbsp;&nbsp;&nbsp;&nbsp;Japan, over 15k confirmed case<br>
+</SPAN></p>
+<p class="solid" color=white style="padding-left: 10%" align=center>Preventions<A href="prevention.html">◀</A>&nbsp;Places&nbsp;<A href="deathsandcases.html">▶</A>&nbsp;Death and Confirmed Cases</p>
+<p class="solid" align=center><A href="prevention.html"><IMG src="preventionshot.png" width=44%></IMG></A>&nbsp;<A href="deathsandcases.html"><IMG src="deathsandcasesshot.png" width=44%></A></p>
+</BODY>
+</HTML>
